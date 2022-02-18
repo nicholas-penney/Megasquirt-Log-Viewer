@@ -1,0 +1,24 @@
+row[0] x
+row[1] x
+row[2] Headers
+row[3] Units
+row[4] Data...
+...
+"MARK " invalid line
+
+
+
+2	: 3
+Head	: Unit
+
+0: Time	: s
+2 RPM	: RPM
+3 MAP	: kPa
+6 AFR	: AFR
+7 AFR 2 : AFR
+9: CLT	: 'C
+
+
+
+
+CLT: >75 'C

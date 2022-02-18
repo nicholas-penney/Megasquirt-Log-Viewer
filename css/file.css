@@ -1,0 +1,32 @@
+.file-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.file-container {
+	text-align: center;
+	margin: 10px;
+}
+
+.file-container label {
+	width: 150px;
+	cursor: pointer;
+	background-color: #336699;
+	color: white;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+.file-container input {
+	display: none;
+}
+
+.progress-container {
+	display: none;
+	margin: 15px 0 0 0;
+}
+
+.file-container div {
+	display: none;
+}

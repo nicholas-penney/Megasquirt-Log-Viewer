@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Megaspaff Viewer</title>
+  <meta name="description" content="Megaspaff Datalog Viewer.">
+  <meta name="author" content="Penneysoft">
+
+  <script src="js/lib/d3.min.js"></script>
+  <script src="js/lib/plotly.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/base.css" />
+  <link rel="stylesheet" type="text/css" href="css/button.css" />
+  <link rel="stylesheet" type="text/css" href="css/card.css" />
+  <link rel="stylesheet" type="text/css" href="css/form.css" />
+  <link rel="stylesheet" type="text/css" href="css/list.css" />
+  <link rel="stylesheet" type="text/css" href="css/loader.css" />
+  <link rel="stylesheet" type="text/css" href="css/search.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/file.css">
+
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+
+<main>
+
+  <header>
+    <h1 class="title">Bryn Mapping</h1>
+    <p class="subtitle">
+      (1989) Mazda MX-5 1.6L Turbo
+    </p>
+  </header>
+
+  <section class="file-buttons">
+
+    <div class="file-container">
+      <label for="target-file-input" id="target-file-label" class="file-container-label">Target (CSV)</label>
+      <input id="target-file-input"
+        type="file"
+        accept=".csv"/>
+      <div id="file-progress-container-target">
+        <span id="target-file-progress-percent"></span>% read
+      </div>
+    </div>
+
+    <div class="file-container">
+      <label for="log-file-input" id="log-file-label">Log (MSL)</label>
+      <input id="log-file-input"
+        type="file"
+        accept=".msl"/>
+      <div id="file-progress-container-target">
+        <span id="log-file-progress-percent"></span>% read
+      </div>
+    </div>
+
+  </section>
+
+
+  <section>
+    <div id="test-table"></div>
+    <div id="gd"></div>
+    <div id="target-graph"></div>
+    <div id="map-graph"></div>
+  </section>
+
+</main>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
